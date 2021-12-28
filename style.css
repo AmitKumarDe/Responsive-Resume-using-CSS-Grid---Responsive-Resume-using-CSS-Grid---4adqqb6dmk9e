@@ -125,11 +125,12 @@ body{
 }
 
 .skill-name{
-    font-size: medium;
+    font-size: 0.65rem;
     color: #f5f6fa;
+    font-weight: 0.65rem;
     text-transform: uppercase;
-    padding: 1rem;
-    padding-left: 0rem;
+    padding-bottom: 0.5rem;
+    text-align: left;
 }
 
 .skill-progress{
@@ -142,10 +143,10 @@ body{
 }
 .progress-bar{
     /* width: 80%; */
-    height: 0.4rem;
     background-color: #2d9cdb;
     position: relative;
-    border-radius: 12px;
+    border: 1px white solid;
+    height: 4px;
 }
 
 
