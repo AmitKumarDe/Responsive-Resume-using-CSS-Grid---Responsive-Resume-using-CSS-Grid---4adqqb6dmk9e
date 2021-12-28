@@ -7,3 +7,198 @@
 }
 
 /* Write CSS code below */
+body{
+    background-color: #a6abad;
+}
+
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    /* background-color: tomato; */
+    display: grid;
+    grid-template-columns: 300px 700px;
+    
+}
+.left-section{
+    grid-column: span 1;
+    background-color: #242531;
+}
+.right-section{
+    grid-column: span 1/span 2;
+    background-color: #f7f7f7;
+    height: 100%;
+}
+
+.left-content{
+    padding: 16px;
+    color: #000000;
+}
+
+.profile{
+    width: 100%;
+    border-bottom: 2px solid #f7f7f7;
+}
+.profile img{
+ display:block;
+ margin: auto;
+ border: 5px;
+ border-radius: 30%;
+ width: 60%;
+ padding-bottom: 0.5rem;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+.designation{
+    font-size: 1rem;
+    color: #94d9ea;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: #f7f7f7;
+}
+.main-title{
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f7f7f7;
+    padding: 1rem;
+}
+.social-media{
+    height: auto;
+    display:flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    
+}
+
+
+.a{
+    height: 100px;
+    width: 100px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px;
+
+}
+
+
+.skills{
+    display: grid;
+  grid-template-columns: 350px;
+
+}
+.skill-title{
+    padding-left: 1rem;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    font-size: 1.8rem;
+}
+
+.skills-content{
+    margin: 2px;
+    width: 80%;
+}
+.skill-item{
+    display: grid;
+    align-items: center;
+    margin: 10px;
+}
+
+.skill-name{
+    font-size: medium;
+    color: #f5f6fa;
+    text-transform: uppercase;
+    padding: 1rem;
+    padding-left: 0rem;
+}
+
+.skill-progress{
+    padding-right: 1rem;
+    height: 100%;
+    position: relative;
+    left: 0;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+}
+.progress-bar{
+    /* width: 80%; */
+    height: 0.4rem;
+    background-color: #2d9cdb;
+    position: relative;
+    border-radius: 12px;
+}
+
+
+/* Right Section */
+
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2F80ED;
+    /* padding: 1.2rem; */
+    position: relative;
+}
+
+.para{
+    line-height: 1.7rem ; 
+    color: #718096;
+    font-size: 1rem;
+}
+.sect{
+    padding-bottom: 2rem;
+}
+.education-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.lftedu-title{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #002333;
+    margin: 0.2rem;
+}
+.right-educontent{
+    margin-top: 2rem;
+}
+.rightedu-title{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #2d9cdb;
+    text-transform: uppercase;
+    position: relative;
+}
+.rightcontent{
+    border-left: 1px solid #ccc ;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+}
+.experience-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+@media screen {
+    
+}
+    
+}
