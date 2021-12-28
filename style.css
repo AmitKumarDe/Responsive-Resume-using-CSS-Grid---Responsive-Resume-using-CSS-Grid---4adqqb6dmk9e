@@ -57,12 +57,12 @@ body{
     padding: 0.8rem;
 }
 .designation{
-    font-size: 1rem;
+    font-size:  1rem;
     color: #94d9ea;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 1rem;
+    padding-bottom: 0.5rem;
 }
 .description{
     font-size: 0.75rem;
@@ -100,14 +100,18 @@ body{
 
 .skills{
     display: grid;
-  grid-template-columns: 350px;
+    grid-template-columns: 350px;
 
 }
 .skill-title{
-    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     text-transform: uppercase;
     color: #f7f7f7;
-    font-size: 1.8rem;
+    font-size: 0.75rem;
+    text-align: center;
 }
 
 .skills-content{
