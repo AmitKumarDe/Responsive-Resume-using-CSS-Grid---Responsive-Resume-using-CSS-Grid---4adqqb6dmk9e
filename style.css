@@ -212,8 +212,18 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-@media screen {
+
+    /* media quaries */
+    @media screen and (max-width:630px){
+        .main-content{
+            grid-template-columns: repeat(1,2fr);
+        }
+    }
+
+    @media screen and (min-width:530px){
+        .main-content{
+            grid-template-columns: repeat(1,2fr);
+        }
+    }
+        
     
-}
-    
-}
