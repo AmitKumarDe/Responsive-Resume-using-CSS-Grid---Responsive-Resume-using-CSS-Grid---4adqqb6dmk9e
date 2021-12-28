@@ -100,18 +100,19 @@ body{
 
 .skills{
     display: grid;
-    grid-template-columns: 350px;
-
+    grid-template-columns: 300px;
 }
 .skill-title{
+    font-size: 0.75rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     text-transform: uppercase;
-    color: #f7f7f7;
-    font-size: 0.75rem;
     text-align: center;
+    color: #f7f7f7;
+    
+    
 }
 
 .skills-content{
@@ -122,6 +123,7 @@ body{
     display: grid;
     align-items: center;
     margin: 10px;
+    padding-left: 10px;
 }
 
 .skill-name{
